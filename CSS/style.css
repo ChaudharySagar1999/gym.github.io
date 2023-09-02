@@ -1,0 +1,642 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: x;
+    src: url(../fonts/Caprasimo-Regular.ttf);
+}
+header{
+    background-image: url(../img/wp2377791-gym-quotes-wallpapers.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    animation-name: gallery;
+    animation-duration: 50s;
+    animation-delay: .7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    background-attachment: fixed;
+   
+}
+header .img{
+    height: auto;
+    max-width: 220px;
+    width: 100%;
+    border-radius: 100%;
+    margin-top: 60px;
+    box-shadow:-5px -5px -10px -3px rgb(68, 67, 67);
+}
+header .img:hover{
+    transform: scale(1.1);
+}
+.hp{
+   
+    text-align: center;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    margin: 0 auto;
+}
+
+
+.hp button{
+    max-width: 200px;
+    width: 100%;
+    border-radius: 50px;
+    padding: 7px;
+    background-color: chocolate;
+    margin: 0 auto;
+    
+    
+    
+} 
+.in:hover{
+    background-color:aqua;
+}
+.sub:hover{
+    background-color: rgb(236, 11, 11);
+    color: #ffffff;
+
+}
+
+
+.hp button:hover{
+    transform: scale(1.2);
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+
+}
+.hp h1{
+    color: #ffffff;
+    line-height:30px;
+    font-size: 40px;
+}
+.hp h2{
+    color:chocolate;
+    font-size: 36px
+}
+.hp h1:hover{
+    background-color:yellow;
+    color: black;
+    padding: 15px;
+    border-radius: 30px;
+   
+}
+.hp h2:hover{
+    background-color:yellow;
+    color: black;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+
+
+.navbar{
+    height: 80px;
+   
+    position:sticky;
+    top: 0;
+   
+
+
+}
+.logo{
+
+    width:10%;
+    position: absolute;
+    left:0px;
+
+}
+.menu{
+   
+    width:90%;
+    position: absolute;
+    right: 0px;
+    top: 7px;
+
+}
+.menu ul li{
+    display: inline-block;
+    max-width: 190px;
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    text-align: center;
+    line-height: 56px;
+    text-shadow: 2px 2px 4px rgb(93, 91, 91);
+}
+.menu input{
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+    
+}
+.menu ul button{
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 70px;
+    width: 100%;
+    font-size:14px;
+
+}
+
+
+.menu ul a{
+    text-decoration: none;
+   color: white;
+   font-family: x;
+
+}
+
+.menu ul li:hover{
+     border-radius: 30px;
+    background-color: rgb(64, 63, 63);
+    color: black;
+}
+.logo img{
+    width:100px;
+    height:60px ;
+
+}
+
+
+/* about us css */
+.ab-h1{
+    text-align: center;
+    text-shadow: 2px 2px 4px grey;
+    margin: 20px;
+}
+.ab-h1::after{
+    content: "Energy -Gym";
+    color: red;
+    padding: 5px;
+}
+.about{
+    
+    text-align: center; 
+}
+ 
+
+#ab-p{
+    margin-top: 20px;
+    padding: 20px;
+   text-align: justify;
+   font-family:x ;
+  color: black;
+  text-align: center;
+}
+#ab-p::first-letter{
+    color: red;
+    font-size: 36px;
+}
+
+
+.about button{
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+
+}
+.about button:hover{
+    background-color: white;
+    color: black;
+
+}
+#ab-img2{
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+
+
+/* why choose us*/
+#fl-h1{
+    text-align: center;
+    margin: 20px;
+    text-shadow: 2px 2px 4px grey;
+}
+    
+
+#fl-h1::after{
+    content: "Services";
+    color: red;
+    padding: 5px;
+}
+.fl{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+
+}
+
+
+
+.fi>div:hover{
+    transform: translateY(-10px);
+   
+    box-shadow: 10px 10px 10px grey;
+    
+}
+.fi img{
+    height:auto;
+    max-width: 500px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+/* team section */
+.team{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(red,black,grey);
+}
+.tm-img{
+    height:auto;
+    max-width: 250px;
+    width: 100%;
+}
+.team div{
+   
+    
+    padding: 10px;
+    text-align: center;
+    margin:10px;
+}
+.team div:hover{
+    background-color: #99d3ee;
+    color: black;
+    transform: translateY(-10px);
+    
+    
+}
+.team div h1,p{
+    color: #ffcaca;
+    font-family: x;
+}
+.tm-img:hover{
+    border-radius: 100%;
+}
+#tm-h1{
+    text-align: center;
+     margin: 10px;
+}
+#tm-h1::after{
+    content: "Trainers";
+    color: red;
+    text-shadow: 2px 2px 4px black;
+    padding:7px;
+}
+
+
+
+/* services section start  */
+
+.ser-h1{
+    text-align: center;
+    text-shadow: 2px 2px 4px grey;
+    color: black;
+   
+    
+
+}
+.ser-h1::after{
+   
+  
+    content: "Choose-us";
+    color: red;
+    padding: 5px;
+}
+
+.services{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    text-align: center;
+    background-color: rgb(45, 2, 92);
+    
+    
+
+}
+.services div h1,h2,p,img{
+   
+    padding: 10px;
+    color: white;
+    margin-top: 5px;
+  
+}
+.services div p{
+  text-align: justify;
+}
+.services>div:hover{
+    background-color: blueviolet;
+    box-shadow: 10px 10px 10px grey;
+
+}
+
+   
+
+
+/* another section */
+.gym{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(194, 137, 247);
+    margin-top: 20px;
+}
+.gym-cont h1{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 40px;
+
+}
+.gym-cont button{
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    background-color: yellow;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.gym-cont button:hover{
+    background-color: #ffffff;
+    color: black;
+}
+
+
+
+/* contact us start */
+
+.cnt-h1{
+    text-align: center;
+    text-shadow: 2px 2px 4px grey;
+    margin: 20px;
+}
+.cnt-h1::after{
+    content: "contact-us";
+    color: red;
+    padding: 5px;
+}
+.cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    background-image: url(../img/pexels-szabolcs-toth-6658206.jpg);
+    background-position: center;
+    background-size: cover;
+    height:500px;
+
+    
+}
+.cont form,.add{
+   margin-top: 100px;
+   
+
+
+}
+.cont form input{
+    height: 30px;
+    width: 300px;
+}
+form label,.add{
+    font-size: 20px;
+    color: rgb(252, 251, 251);
+  font-family: x;
+   
+    padding: 5px;
+    
+}
+
+form textarea{
+    height: 100px;
+    width: 300px;
+}
+
+form button{
+    padding: 10px;
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    border-radius: 30px;
+}
+form button:hover{
+    padding: 10px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+}
+#add a:hover{
+    color: rgb(242, 202, 5);
+    background-color: rgb(0, 0, 0);
+
+    
+    text-decoration: none;
+}
+#add{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+#add p,a{
+    font-size: 24px;
+
+}
+#add a{
+    color: rgb(251, 251, 251);
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+#media img{
+    height:50px;
+    margin-top: 300px;
+}
+#media img:hover{
+    transform: scale(1.1);
+}
+
+#media{
+    position: absolute;
+    right: 175px;
+    padding-top: 20px;
+    
+}
+
+
+/* extraa css */
+#menu{
+    display: none ;
+}
+
+@media screen and (max-width:768px){
+    .js{
+        display: none;
+    }
+    #menu{
+        width: 2em;
+        display: block;
+        background: #ffffff;
+        text-align: center;
+        float: right;
+        font-size: 1.35em;
+        position:fixed;
+        top: 10px;
+        right: 10px;
+    }
+    #nav{
+        float: left;
+        margin-left: 200px;
+       margin-top: 0px;
+        background-color: rgb(2, 2, 64);
+
+       
+       
+    }
+    
+   
+   
+
+}
+
+.sticky{
+    position: fixed !important;
+    width: 100%;
+    top:0;
+    z-index: 9;
+    background-color: rgb(75, 75, 74);
+}
+@keyframes gallery{
+    20%{
+        background-image:url(../img/wp12047636-gym-pc-wallpapers.jpg);
+        background-size:cover;
+        background-position: center;
+    }
+    40%{
+        background-image:url(../img/pexels-binyamin-mellish-17840.jpg);
+        background-size:cover;
+        background-position: center;
+    }
+    60%{
+        background-image:url(../img/pexels-joseph-wayne-buchanan-1144864.jpg);
+        background-size:cover;
+        background-position: center;
+    }
+    80%{
+        background-image:url(../img/pexels-leon-ardho-1552242.jpg);
+        background-size:cover;
+        background-position: center;
+    }
+    100%{
+        background-image:url(../img/pexels-antoni-shkraba-4662356.jpg);
+        background-size:cover;
+        background-position: center;
+    }
+
+}
+
+
+/* media queries */
+
+@media screen and (max-width:768px){
+    .about div{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .fl,.f2,.f3{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .services{
+        flex-direction: column;
+       }
+       .services>div{
+          
+           align-items: center;
+           text-align: center;
+   
+       }
+       .services>div p{
+           border: 2px solid white;
+           height:auto;
+           max-width: 200px;
+           margin: 0 auto;
+       }
+       .gym{
+        flex-direction: column;
+        align-items:center;
+        text-align: center;
+       }
+       .gym-img{
+        max-width: 592px;
+        width: 100%;
+        height: auto;
+    }
+       .cont{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        text-align: center;
+        
+      }
+      .add a,p{
+        margin: 0 auto;
+        font-size: 22px;
+      }
+      .add{
+        display: inline-block;
+      }
+       #add-a{
+       display:none;
+      } 
+      
+      
+      .team{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        
+      }
+      
+      .in{
+        display: block;
+        padding: 5px;
+      }
+
+       #media img{
+       display: none;
+      }
+      
+      .hp{
+        text-align: center;
+        position: absolute;
+        top: 200px;
+        left: 80px;
+      }
+      header .img{
+        display: none;
+      }
+       
+}
+
+
+
+
+
+
+
